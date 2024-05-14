@@ -290,6 +290,7 @@ body {
 
 
 /*Página Cursos*/
+
 .portada-cursos {
     width: 100%;
 }
@@ -314,6 +315,8 @@ body {
     display: flex;
     align-content: center;
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .curso-uno {
@@ -369,6 +372,7 @@ body {
         font-size: 20px;
         width: 100%;
         margin-top: 20px;
+        
     }
     
     .curso-img {
@@ -437,11 +441,114 @@ body {
 }
 
 
+/*Página Contacto*/
+
+.portada-contacto {
+    width: 100%;
+}
+
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 33px;
+    margin-top: 20px;
+    color: black;
+}
+
+.icons-contacto {
+    color: #684f2f;
+    background-color: #d3b899;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.icons-contacto:hover {
+    color: #d3b899;
+    background-color: #684f2f;
+}
+
+.general-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.general-contacto h5 {
+    margin-right: 15px;
+}
+
+.redes-contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-top: 30px;
+}
 
 
+/*Página Ubicación*/
 
+.general-ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 33px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
 
+.elementos-ubicacion {
+    display: flex;
+    margin-top: 20px;
+}
+
+.iconos-ubicacion {
+    margin-right: 20px;
+    font-size: 30px;
+    color: #522f02;
+}
+
+@media only screen and (max-width: 710px) {
+    .iconos-ubicacion {
+        margin-right: 10px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .elementos-ubicacion h5 {
+        font-size: 15px;
+    }
+
+    .mapa {
+        height: 200px;
+        width: 400px;
+    }
+
+    .ubicacion {
+        font-size: 30px;
+    }
+
+}
 
 
 
