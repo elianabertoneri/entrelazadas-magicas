@@ -349,7 +349,11 @@ body {
 }
 
 
-@media only screen and (max-width: 500px) {
+
+/*Medias Queries*/
+
+/*Mobile*/
+@media only screen and (max-width: 600px) {
     .grid-container {
         grid-template-columns: 1fr;
         grid-template-rows: 80px 200px 50px 200px 50px;
@@ -360,7 +364,6 @@ body {
         "curso2"
         "detalles2";
     }
-
 
     .cursos h3 {
         font-size: 20px;
@@ -374,6 +377,62 @@ body {
 
     .detalles-style {
         font-size: 15px;
+    }
+}
+
+
+/*Tablets*/
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px 260px 50px 260px 50px;
+        grid-template-areas: 
+        "cursos"
+        "curso1"
+        "detalles1"
+        "curso2"
+        "detalles2";
+    }
+
+    .cursos h3 {
+        font-size: 25px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .curso-img {
+        height: 230px;
+    }
+
+    .detalles-style {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1120px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px 300px 60px 300px 60px;
+        grid-template-areas: 
+        "cursos"
+        "curso1"
+        "detalles1"
+        "curso2"
+        "detalles2";
+    }
+
+    .cursos h3 {
+        font-size: 30px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .curso-img {
+        height: 280px;
+    }
+
+    .detalles-style {
+        font-size: 20px;
     }
 }
 
