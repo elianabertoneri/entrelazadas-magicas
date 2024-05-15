@@ -66,225 +66,128 @@ body {
 
 /*Página Tienda*/
 
-.grid-container {
-    display: grid;
-    margin-left: 20px;
-    margin-right: 20px;
-    grid-template-rows: 80px 50px 320px 25px 100px 320px 25px 100px 320px 25px;
-    grid-template-columns: repeat(4, auto);
-    grid-template-areas: 
-    "bienvenidos bienvenidos bienvenidos bienvenidos"
-    "amigurumis amigurumis amigurumis amigurumis"
-    "ami1 ami2 ami3 ami4"
-    "det1 det2 det3 det4"
-    "sweaters sweaters sweaters sweaters"
-    "swe1 swe2 swe3 swe4"
-    "det5 det6 det7 det8"
-    "accesorios accesorios accesorios accesorios"
-    "acc1 acc2 acc3 acc4"
-    "det9 det10 det11 det12";
-    
+.tienda-bienvenidos {
+    display: flex;
+    justify-content: center;
 }
 
-.grid-img {
+.tienda-bienvenidos h3 {
+    font-size: 32px;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tienda-clases {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.tienda-productos {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.tienda-productos img {
     height: 300px;
 }
 
-.bienvenidos {
-    grid-area: bienvenidos;
+.tienda-productos h5 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
 
-.grid-container h3 {
- font-size: 33px;
- font-family: "Lato", sans-serif;
- font-weight: 900;
- font-style: normal;
- color: black;
+.tienda-titulos {
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
-.amigurumis {
-    grid-area: amigurumis;
-    margin-left: 15px;
-    display: flex;
-    align-items: end;
-    color: black;
+@media only screen and (min-width: 601px) and (max-width: 1025px) {
+    .tienda-productos {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
 }
 
-.ami1 {
-    grid-area: ami1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media only screen and (min-width: 501px) and (max-width: 600px) {
+    .tienda-productos {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .tienda-productos h5 {
+        font-size: 18px;
+    }
+
+    .tienda-bienvenidos h3 {
+        font-size: 28px;
+    }
+
+    .tienda-titulos h4 {
+        font-size: 18px;
+    }
 }
 
-.det1 {
-    grid-area: det1;
-    display: flex;
-    justify-content: center;
-    
+@media only screen and (min-width: 431px) and (max-width: 500px) {
+    .tienda-productos {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .tienda-productos h5 {
+        font-size: 18px;
+    }
+
+    .tienda-bienvenidos h3 {
+        font-size: 25px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .tienda-titulos h4 {
+        font-size: 18px;
+        margin-left: 5px;
+    }
 }
 
-.ami2 {
-    grid-area: ami2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media only screen and (max-width: 430px) {
+    .tienda-productos {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .tienda-productos h5 {
+        font-size: 16px;
+    }
+
+    .tienda-bienvenidos h3 {
+        font-size: 25px;
+        margin-right: 60px;
+        margin-left: 80px;
+    }
+
+    .tienda-titulos h4 {
+        font-size: 18px;
+        margin-left: 5px;
+    }
 }
 
-.det2 {
-    grid-area: det2;
-    display: flex;
-    justify-content: center;
-}
 
-.ami3 {
-    grid-area: ami3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.det3 {
-    grid-area: det3;
-    display: flex;
-    justify-content: center;
-}
 
-.ami4 {
-    grid-area: ami4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.det4 {
-    grid-area: det4;
-    display: flex;
-    justify-content: center;
-}
 
-.sweaters {
-    grid-area: sweaters;
-    margin-left: 15px;
-    display: flex;
-    align-items: end;
-    color: black;
-}
 
-.swe1 {
-    grid-area: swe1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.det5 {
-    grid-area: det5;
-    display: flex;
-    justify-content: center;
-}
 
-.swe2 {
-    grid-area: swe2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.det6 {
-    grid-area: det6;
-    display: flex;
-    justify-content: center;
-}
 
-.swe3 {
-    grid-area: swe3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.det7 {
-    grid-area: det7;
-    display: flex;
-    justify-content: center;
-}
-
-.swe4 {
-    grid-area: swe4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.det8 {
-    grid-area: det8;
-    display: flex;
-    justify-content: center;
-}
-
-.accesorios {
-    grid-area: accesorios;
-    margin-left: 15px;
-    display: flex;
-    align-items: end;
-    color: black;
-}
-
-.acc1 {
-    grid-area: acc1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.det9 {
-    grid-area: det9;
-    display: flex;
-    justify-content: center;
-}
-
-.acc2 {
-    grid-area: acc2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.det10 {
-    grid-area: det10;
-    display: flex;
-    justify-content: center;
-}
-
-.acc3 {
-    grid-area: acc3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.det11 {
-    grid-area: det11;
-    display: flex;
-    justify-content: center;
-}
-
-.acc4 {
-    grid-area: acc4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.det12 {
-    grid-area: det12;
-    display: flex;
-    justify-content: center;
-}
 
 
 
