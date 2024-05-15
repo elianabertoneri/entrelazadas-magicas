@@ -494,6 +494,24 @@ body {
     margin-top: 30px;
 }
 
+@media only screen and (max-width: 599px) {
+    .redes-contacto h5 {
+        font-size: 15px;
+    }
+
+    .redes-contacto a {
+        font-size: 12px;
+    }
+
+    .icons-contacto {
+        padding: 10px;
+        border-radius: 50%;
+        font-size: 15px;
+        margin-right: 8px; 
+    }
+}
+
+
 
 /*Página Ubicación*/
 
