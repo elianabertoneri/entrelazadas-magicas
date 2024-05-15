@@ -528,27 +528,35 @@ body {
     color: #522f02;
 }
 
-@media only screen and (max-width: 710px) {
+
+
+@media only screen and (max-width: 749px) {
     .iconos-ubicacion {
-        margin-right: 10px;
+        margin-right: 5px;
         margin-left: 20px;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .elementos-ubicacion h5 {
-        font-size: 15px;
+        font-size: 14px;
+        margin-right: 20px;
     }
 
     .mapa {
         height: 200px;
-        width: 400px;
+        width: 300px;
     }
 
     .ubicacion {
         font-size: 30px;
     }
 
+    .general-ubicacion {
+        margin-bottom: 30px;
+    }
 }
+
+
 
 
 
