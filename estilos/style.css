@@ -9,11 +9,8 @@
     font-size: 20px;
 }
 
-.nav-right {
-    justify-content: right;
-}
-
 .nav-space {
+    justify-content: right;
     padding-right: 5%;
 }
 
