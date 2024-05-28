@@ -14,6 +14,13 @@ body {
 
             .tipos {
                 height: 300px; 
+                transition-duration: 1s;
+                
+                &:hover {
+                    height: 350px;
+                    transition: all 1.5s;
+                }
+
             }
 
             .links {

@@ -53,6 +53,12 @@
     
     .curso-img {
         height: 300px;
+        transition-duration: 1s;
+
+        &:hover {
+            height: 350px;
+            transition: all 1s;
+        }
     }
 
 

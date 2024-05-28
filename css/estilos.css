@@ -56,6 +56,11 @@ body .pagina-inicio .productos {
 }
 body .pagina-inicio .productos .tipos {
   height: 300px;
+  transition-duration: 1s;
+}
+body .pagina-inicio .productos .tipos:hover {
+  height: 350px;
+  transition: all 1.5s;
 }
 body .pagina-inicio .productos .links {
   display: flex;
@@ -100,6 +105,11 @@ h1 {
 }
 .tienda-clases .tienda-productos img {
   height: 300px;
+  transition-duration: 1s;
+}
+.tienda-clases .tienda-productos img:hover {
+  height: 325px;
+  transition: all 1s;
 }
 .tienda-clases .tienda-productos h5 {
   display: flex;
@@ -171,6 +181,11 @@ h1 {
 }
 .grid-container .curso-img {
   height: 300px;
+  transition-duration: 1s;
+}
+.grid-container .curso-img:hover {
+  height: 350px;
+  transition: all 1s;
 }
 
 body {
@@ -278,8 +293,10 @@ footer li {
 footer li .menu-footer {
   color: black;
   text-decoration: none;
+  transition-duration: 35ms;
 }
 footer li .menu-footer:hover {
+  transition: all 80ms;
   color: #522f02;
   margin-left: 5px;
 }
