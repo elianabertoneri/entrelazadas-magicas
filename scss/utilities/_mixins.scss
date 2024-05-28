@@ -1,0 +1,8 @@
+@mixin titulos-estilo($display, $flex-d, $align-i, $font-w, $font-s, $margin) {
+    display: $display;
+    flex-direction: $flex-d;
+    align-items: $align-i;
+    font-weight: $font-w;
+    font-size: $font-s;
+    margin-top: $margin;
+}

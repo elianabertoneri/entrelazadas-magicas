@@ -1,0 +1,42 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+@import "../utilities/global";
+
+
+.contacto-general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .contacto-portada {
+        width: 100%;
+    }
+
+    .contacto-redes {
+        font-family: $titulos;
+        @include titulos-estilo(flex, row, center, 900, 16px, 30px);
+
+        .contacto-icons {
+            color: $hover-oscuro;
+            background-color: $hover-claro;
+            padding: 10px;
+            border-radius: 50%;
+            font-size: 20px;
+            margin-right: 15px;
+
+            &:hover {
+                color: $hover-claro;
+                background-color: $hover-oscuro;
+            }
+        }
+        
+        h5 {
+            font-size: 22px;
+            margin-right: 15px;
+        }
+        
+    }
+
+
+}

@@ -1,0 +1,35 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+@import "../utilities/global";
+
+body {
+    
+    .pagina-inicio {
+        margin-top: 30px;
+
+        .productos {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+            .tipos {
+                height: 300px; 
+            }
+
+            .links {
+                display: flex;
+                font-size: 20px;
+                justify-content: center;
+                text-decoration: none;
+                color: black;
+
+                &:hover {
+                    color: rgb(252, 135, 40);
+                }
+               
+            }
+        }
+    }
+
+}
+

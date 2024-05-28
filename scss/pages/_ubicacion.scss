@@ -1,0 +1,26 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+@import "../utilities/global";
+
+.ubicacion-general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .ubicacion {
+        margin-bottom: 20px;
+    }
+
+    .ubicacion-elementos {
+        display: flex;
+        margin-top: 20px;
+
+        .ubicacion-iconos {
+            margin-right: 20px;
+            font-size: 30px;
+            color: #522f02;
+        }
+        
+    }
+}

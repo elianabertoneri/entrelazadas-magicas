@@ -1,0 +1,27 @@
+@import '../utilities/variables';
+
+.navbar {
+    padding: 0;
+    margin-bottom: 5px;
+
+    .nav-style {
+        background-color: #d3b899;
+        font-family: $font;
+        font-size: 20px;
+    
+        .logo {
+            width: 60%;
+        }
+    
+        .nav-space {
+            justify-content: right;
+            padding-right: 5%;
+    
+            .item-space {
+                margin-left: 20px;
+            }
+        }
+    
+    }
+    
+}

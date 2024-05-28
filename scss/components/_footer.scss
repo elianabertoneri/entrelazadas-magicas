@@ -1,0 +1,63 @@
+@import '../utilities/variables';
+footer {
+    background-color: #b89465;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+     
+    &.footer-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+    }
+
+    .logo-footer {
+        height: 100px;
+    }
+
+    li {
+        list-style-type: none;
+        font-family: $font;
+        font-size: 18px;
+        
+        .menu-footer {
+            color: black;
+            text-decoration: none;
+
+            &:hover {
+                color: #522f02;
+                margin-left: 5px;
+            }
+
+        }
+
+    }
+
+    .iconos-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+
+        .icon-style {
+            padding: 10px;
+            font-size: 20px;
+            background-color: #d3b899;
+            border-radius: 50%;
+            color: #684f2f;
+
+            &:hover {
+                color: #d3b899;
+                background-color: #684f2f;
+            }
+
+        }
+
+    }
+
+
+
+
+}

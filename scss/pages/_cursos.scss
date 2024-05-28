@@ -1,0 +1,59 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+@import "../utilities/global";
+
+.cursos-portada {
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "cursos cursos"
+    "curso1 curso2"
+    "detalles1 detalles2";
+
+    .cursos {
+        grid-area: cursos;
+
+        h1{
+            font: $titulos;
+            @include titulos-estilo(flex, column, center, 600, 35px, 25px);
+            margin-bottom: 30px;
+        }
+    }
+
+    .curso-uno {
+        grid-area: curso1;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .curso-dos {
+        @extend .curso-uno;
+        grid-area: curso2;
+    }
+    
+    .detalles-uno {
+        @extend .curso-uno;
+        grid-area: detalles1;
+        margin-top: 15px;
+    }
+    
+    .detalles-dos {
+        @extend .curso-uno;
+        grid-area: detalles2;
+        margin-top: 15px;
+    }
+    
+    .curso-img {
+        height: 300px;
+    }
+
+
+}

@@ -1,0 +1,11 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+body {
+    background-color: $color-fondo;
+}
+
+h1{
+    font: $titulos;
+    @include titulos-estilo(flex, column, center, 600, 35px, 30px);
+}

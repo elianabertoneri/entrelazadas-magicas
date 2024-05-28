@@ -1,0 +1,303 @@
+.navbar {
+  padding: 0;
+  margin-bottom: 5px;
+}
+.navbar .nav-style {
+  background-color: #d3b899;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+.navbar .nav-style .logo {
+  width: 60%;
+}
+.navbar .nav-style .nav-space {
+  justify-content: right;
+  padding-right: 5%;
+}
+.navbar .nav-style .nav-space .item-space {
+  margin-left: 20px;
+}
+
+body {
+  background-color: #f6e7d6;
+}
+
+h1 {
+  font: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+body {
+  background-color: #f6e7d6;
+}
+
+h1 {
+  font: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+body .pagina-inicio {
+  margin-top: 30px;
+}
+body .pagina-inicio .productos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+body .pagina-inicio .productos .tipos {
+  height: 300px;
+}
+body .pagina-inicio .productos .links {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+body .pagina-inicio .productos .links:hover {
+  color: rgb(252, 135, 40);
+}
+
+body {
+  background-color: #f6e7d6;
+}
+
+h1 {
+  font: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+.tienda-bienvenidos {
+  display: flex;
+  justify-content: center;
+}
+
+.tienda-clases {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.tienda-clases .tienda-productos {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.tienda-clases .tienda-productos img {
+  height: 300px;
+}
+.tienda-clases .tienda-productos h5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: #f6e7d6;
+}
+
+h1 {
+  font: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+.cursos-portada {
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "cursos cursos" "curso1 curso2" "detalles1 detalles2";
+}
+.grid-container .cursos {
+  grid-area: cursos;
+}
+.grid-container .cursos h1 {
+  font: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .detalles-uno, .grid-container .curso-dos {
+  grid-area: curso1;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.grid-container .curso-dos {
+  grid-area: curso2;
+}
+.grid-container .detalles-uno {
+  grid-area: detalles1;
+  margin-top: 15px;
+}
+.grid-container .detalles-dos {
+  grid-area: detalles2;
+  margin-top: 15px;
+}
+.grid-container .curso-img {
+  height: 300px;
+}
+
+body {
+  background-color: #f6e7d6;
+}
+
+h1 {
+  font: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+.contacto-general {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contacto-general .contacto-portada {
+  width: 100%;
+}
+.contacto-general .contacto-redes {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 900;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.contacto-general .contacto-redes .contacto-icons {
+  color: #684f2f;
+  background-color: #d3b899;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.contacto-general .contacto-redes .contacto-icons:hover {
+  color: #d3b899;
+  background-color: #684f2f;
+}
+.contacto-general .contacto-redes h5 {
+  font-size: 22px;
+  margin-right: 15px;
+}
+
+body {
+  background-color: #f6e7d6;
+}
+
+h1 {
+  font: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+.ubicacion-general {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ubicacion-general .ubicacion {
+  margin-bottom: 20px;
+}
+.ubicacion-general .ubicacion-elementos {
+  display: flex;
+  margin-top: 20px;
+}
+.ubicacion-general .ubicacion-elementos .ubicacion-iconos {
+  margin-right: 20px;
+  font-size: 30px;
+  color: #522f02;
+}
+
+footer {
+  background-color: #b89465;
+  margin-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+footer.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+footer .logo-footer {
+  height: 100px;
+}
+footer li {
+  list-style-type: none;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+}
+footer li .menu-footer {
+  color: black;
+  text-decoration: none;
+}
+footer li .menu-footer:hover {
+  color: #522f02;
+  margin-left: 5px;
+}
+footer .iconos-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer .iconos-footer .icon-style {
+  padding: 10px;
+  font-size: 20px;
+  background-color: #d3b899;
+  border-radius: 50%;
+  color: #684f2f;
+}
+footer .iconos-footer .icon-style:hover {
+  color: #d3b899;
+  background-color: #684f2f;
+}
+
+/*# sourceMappingURL=estilos.css.map */
