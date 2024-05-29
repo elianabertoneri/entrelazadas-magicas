@@ -1,3 +1,118 @@
+/*Media queries Desktop*/
+@media only screen and (max-width: 1400px) {
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-bottom: 30px;
+  }
+}
+/*Media queries Tablet*/
+@media only screen and (max-width: 992px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+}
+/*Media queries Mobile*/
+@media only screen and (max-width: 576px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+  /*TIENDA*/
+  .tienda-bienvenidos {
+    margin-bottom: 15px;
+  }
+  .tienda-bienvenidos h1 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  h1 {
+    font-size: 25px;
+  }
+  .pagina-inicio .productos .productos-img {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+  }
+  .pagina-inicio .productos .productos-img .tipos {
+    height: 200px;
+  }
+  .pagina-inicio .productos .productos-img .tipos:hover {
+    height: 250px;
+  }
+  /*TIENDA*/
+  .tienda-bienvenidos {
+    margin-bottom: 15px;
+  }
+  .tienda-bienvenidos h1 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 150px 20px 150px 20px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos h1 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 120px;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 15px;
+    margin-top: 25px;
+  }
+}
 .navbar {
   padding: 0;
   margin-bottom: 5px;
@@ -7,8 +122,8 @@
   font-family: "Oswald", sans-serif;
   font-size: 20px;
 }
-.navbar .nav-style .logo {
-  width: 60%;
+.navbar .nav-style .header-logo {
+  height: 100px;
 }
 .navbar .nav-style .nav-space {
   justify-content: right;
@@ -73,6 +188,121 @@ body .pagina-inicio .productos .links:hover {
   color: rgb(252, 135, 40);
 }
 
+/*Media queries Desktop*/
+@media only screen and (max-width: 1400px) {
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-bottom: 30px;
+  }
+}
+/*Media queries Tablet*/
+@media only screen and (max-width: 992px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+}
+/*Media queries Mobile*/
+@media only screen and (max-width: 576px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+  /*TIENDA*/
+  .tienda-bienvenidos {
+    margin-bottom: 15px;
+  }
+  .tienda-bienvenidos h1 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  h1 {
+    font-size: 25px;
+  }
+  .pagina-inicio .productos .productos-img {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+  }
+  .pagina-inicio .productos .productos-img .tipos {
+    height: 200px;
+  }
+  .pagina-inicio .productos .productos-img .tipos:hover {
+    height: 250px;
+  }
+  /*TIENDA*/
+  .tienda-bienvenidos {
+    margin-bottom: 15px;
+  }
+  .tienda-bienvenidos h1 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 150px 20px 150px 20px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos h1 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 120px;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 15px;
+    margin-top: 25px;
+  }
+}
 body {
   background-color: #f6e7d6;
 }
@@ -123,6 +353,121 @@ h4 {
   margin-bottom: 20px;
 }
 
+/*Media queries Desktop*/
+@media only screen and (max-width: 1400px) {
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-bottom: 30px;
+  }
+}
+/*Media queries Tablet*/
+@media only screen and (max-width: 992px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+}
+/*Media queries Mobile*/
+@media only screen and (max-width: 576px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+  /*TIENDA*/
+  .tienda-bienvenidos {
+    margin-bottom: 15px;
+  }
+  .tienda-bienvenidos h1 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  h1 {
+    font-size: 25px;
+  }
+  .pagina-inicio .productos .productos-img {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+  }
+  .pagina-inicio .productos .productos-img .tipos {
+    height: 200px;
+  }
+  .pagina-inicio .productos .productos-img .tipos:hover {
+    height: 250px;
+  }
+  /*TIENDA*/
+  .tienda-bienvenidos {
+    margin-bottom: 15px;
+  }
+  .tienda-bienvenidos h1 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 150px 20px 150px 20px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos h1 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 120px;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 15px;
+    margin-top: 25px;
+  }
+}
 body {
   background-color: #f6e7d6;
 }
@@ -162,18 +507,18 @@ h1 {
   margin-top: 25px;
   margin-bottom: 30px;
 }
-.grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .detalles-uno, .grid-container .curso-dos {
+.grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
   grid-area: curso1;
   display: flex;
   align-content: center;
   justify-content: center;
 }
-.grid-container .curso-dos {
-  grid-area: curso2;
-}
 .grid-container .detalles-uno {
   grid-area: detalles1;
   margin-top: 15px;
+}
+.grid-container .curso-dos {
+  grid-area: curso2;
 }
 .grid-container .detalles-dos {
   grid-area: detalles2;
@@ -181,13 +526,123 @@ h1 {
 }
 .grid-container .curso-img {
   height: 300px;
-  transition-duration: 1s;
-}
-.grid-container .curso-img:hover {
-  height: 350px;
-  transition: all 1s;
 }
 
+/*Media queries Desktop*/
+@media only screen and (max-width: 1400px) {
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-bottom: 30px;
+  }
+}
+/*Media queries Tablet*/
+@media only screen and (max-width: 992px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+}
+/*Media queries Mobile*/
+@media only screen and (max-width: 576px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+  /*TIENDA*/
+  .tienda-bienvenidos {
+    margin-bottom: 15px;
+  }
+  .tienda-bienvenidos h1 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  h1 {
+    font-size: 25px;
+  }
+  .pagina-inicio .productos .productos-img {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+  }
+  .pagina-inicio .productos .productos-img .tipos {
+    height: 200px;
+  }
+  .pagina-inicio .productos .productos-img .tipos:hover {
+    height: 250px;
+  }
+  /*TIENDA*/
+  .tienda-bienvenidos {
+    margin-bottom: 15px;
+  }
+  .tienda-bienvenidos h1 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 150px 20px 150px 20px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos h1 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 120px;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 15px;
+    margin-top: 25px;
+  }
+}
 body {
   background-color: #f6e7d6;
 }
@@ -202,6 +657,121 @@ h1 {
   margin-top: 30px;
 }
 
+/*Media queries Desktop*/
+@media only screen and (max-width: 1400px) {
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-bottom: 30px;
+  }
+}
+/*Media queries Tablet*/
+@media only screen and (max-width: 992px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+}
+/*Media queries Mobile*/
+@media only screen and (max-width: 576px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+  /*TIENDA*/
+  .tienda-bienvenidos {
+    margin-bottom: 15px;
+  }
+  .tienda-bienvenidos h1 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  h1 {
+    font-size: 25px;
+  }
+  .pagina-inicio .productos .productos-img {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+  }
+  .pagina-inicio .productos .productos-img .tipos {
+    height: 200px;
+  }
+  .pagina-inicio .productos .productos-img .tipos:hover {
+    height: 250px;
+  }
+  /*TIENDA*/
+  .tienda-bienvenidos {
+    margin-bottom: 15px;
+  }
+  .tienda-bienvenidos h1 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 150px 20px 150px 20px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos h1 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 120px;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 15px;
+    margin-top: 25px;
+  }
+}
 .contacto-general {
   display: flex;
   flex-direction: column;
@@ -251,6 +821,121 @@ h1 {
   margin-top: 30px;
 }
 
+/*Media queries Desktop*/
+@media only screen and (max-width: 1400px) {
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-bottom: 30px;
+  }
+}
+/*Media queries Tablet*/
+@media only screen and (max-width: 992px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+}
+/*Media queries Mobile*/
+@media only screen and (max-width: 576px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+  /*TIENDA*/
+  .tienda-bienvenidos {
+    margin-bottom: 15px;
+  }
+  .tienda-bienvenidos h1 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  h1 {
+    font-size: 25px;
+  }
+  .pagina-inicio .productos .productos-img {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+  }
+  .pagina-inicio .productos .productos-img .tipos {
+    height: 200px;
+  }
+  .pagina-inicio .productos .productos-img .tipos:hover {
+    height: 250px;
+  }
+  /*TIENDA*/
+  .tienda-bienvenidos {
+    margin-bottom: 15px;
+  }
+  .tienda-bienvenidos h1 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 150px 20px 150px 20px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos h1 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 120px;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 15px;
+    margin-top: 25px;
+  }
+}
 .ubicacion-general {
   display: flex;
   flex-direction: column;
@@ -315,6 +1000,122 @@ footer .iconos-footer .icon-style {
 footer .iconos-footer .icon-style:hover {
   color: #d3b899;
   background-color: #684f2f;
+}
+
+/*Media queries Desktop*/
+@media only screen and (max-width: 1400px) {
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-bottom: 30px;
+  }
+}
+/*Media queries Tablet*/
+@media only screen and (max-width: 992px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+}
+/*Media queries Mobile*/
+@media only screen and (max-width: 576px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  .pagina-inicio .productos .productos-img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+  /*TIENDA*/
+  .tienda-bienvenidos {
+    margin-bottom: 15px;
+  }
+  .tienda-bienvenidos h1 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  /*HEADER*/
+  .navbar .nav-style .header-logo {
+    height: 80px;
+  }
+  /*INICIO*/
+  h1 {
+    font-size: 25px;
+  }
+  .pagina-inicio .productos .productos-img {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+  }
+  .pagina-inicio .productos .productos-img .tipos {
+    height: 200px;
+  }
+  .pagina-inicio .productos .productos-img .tipos:hover {
+    height: 250px;
+  }
+  /*TIENDA*/
+  .tienda-bienvenidos {
+    margin-bottom: 15px;
+  }
+  .tienda-bienvenidos h1 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 150px 20px 150px 20px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos h1 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 120px;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 15px;
+    margin-top: 25px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

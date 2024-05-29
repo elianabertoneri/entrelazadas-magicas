@@ -2,6 +2,7 @@
 @import "../utilities/mixins";
 @import "../utilities/global";
 
+
 .cursos-portada {
     width: 100%;
 }
@@ -34,15 +35,15 @@
         justify-content: center;
     }
     
-    .curso-dos {
-        @extend .curso-uno;
-        grid-area: curso2;
-    }
-    
     .detalles-uno {
         @extend .curso-uno;
         grid-area: detalles1;
         margin-top: 15px;
+    }
+
+    .curso-dos {
+        @extend .curso-uno;
+        grid-area: curso2;
     }
     
     .detalles-dos {
@@ -53,13 +54,8 @@
     
     .curso-img {
         height: 300px;
-        transition-duration: 1s;
-
-        &:hover {
-            height: 350px;
-            transition: all 1s;
-        }
     }
 
-
 }
+
+@import '../utilities/media-queries';

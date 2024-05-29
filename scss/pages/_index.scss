@@ -2,6 +2,7 @@
 @import "../utilities/mixins";
 @import "../utilities/global";
 
+
 body {
     
     .pagina-inicio {
@@ -40,3 +41,4 @@ body {
 
 }
 
+@import "../utilities/media-queries";
