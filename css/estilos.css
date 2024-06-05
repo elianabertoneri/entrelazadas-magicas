@@ -224,24 +224,6 @@
     font-size: 15px;
   }
 }
-@media only screen and (max-width: 414px) {
-  .tienda-bienvenidos {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  .tienda-bienvenidos .tienda-h1 {
-    font-size: 20px;
-  }
-  h4 {
-    font-size: 16px;
-  }
-  h5 {
-    font-size: 15px;
-  }
-  .tienda-clases {
-    margin-bottom: 10px;
-  }
-}
 .navbar {
   padding: 0;
   margin-bottom: 5px;
@@ -542,24 +524,6 @@ body .pagina-inicio .productos .links:hover {
     font-size: 15px;
   }
 }
-@media only screen and (max-width: 414px) {
-  .tienda-bienvenidos {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  .tienda-bienvenidos .tienda-h1 {
-    font-size: 20px;
-  }
-  h4 {
-    font-size: 16px;
-  }
-  h5 {
-    font-size: 15px;
-  }
-  .tienda-clases {
-    margin-bottom: 10px;
-  }
-}
 body {
   background-color: #f6e7d6;
 }
@@ -833,24 +797,6 @@ h4 {
   }
   .ubicacion-elementos h5 {
     font-size: 15px;
-  }
-}
-@media only screen and (max-width: 414px) {
-  .tienda-bienvenidos {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  .tienda-bienvenidos .tienda-h1 {
-    font-size: 20px;
-  }
-  h4 {
-    font-size: 16px;
-  }
-  h5 {
-    font-size: 15px;
-  }
-  .tienda-clases {
-    margin-bottom: 10px;
   }
 }
 body {
@@ -1138,24 +1084,6 @@ h1 {
     font-size: 15px;
   }
 }
-@media only screen and (max-width: 414px) {
-  .tienda-bienvenidos {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  .tienda-bienvenidos .tienda-h1 {
-    font-size: 20px;
-  }
-  h4 {
-    font-size: 16px;
-  }
-  h5 {
-    font-size: 15px;
-  }
-  .tienda-clases {
-    margin-bottom: 10px;
-  }
-}
 body {
   background-color: #f6e7d6;
 }
@@ -1393,24 +1321,6 @@ h1 {
   }
   .ubicacion-elementos h5 {
     font-size: 15px;
-  }
-}
-@media only screen and (max-width: 414px) {
-  .tienda-bienvenidos {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  .tienda-bienvenidos .tienda-h1 {
-    font-size: 20px;
-  }
-  h4 {
-    font-size: 16px;
-  }
-  h5 {
-    font-size: 15px;
-  }
-  .tienda-clases {
-    margin-bottom: 10px;
   }
 }
 .contacto-general {
@@ -1685,24 +1595,6 @@ h1 {
   }
   .ubicacion-elementos h5 {
     font-size: 15px;
-  }
-}
-@media only screen and (max-width: 414px) {
-  .tienda-bienvenidos {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  .tienda-bienvenidos .tienda-h1 {
-    font-size: 20px;
-  }
-  h4 {
-    font-size: 16px;
-  }
-  h5 {
-    font-size: 15px;
-  }
-  .tienda-clases {
-    margin-bottom: 10px;
   }
 }
 .ubicacion-general {
@@ -1994,24 +1886,6 @@ footer .iconos-footer .icon-style:hover {
   }
   .ubicacion-elementos h5 {
     font-size: 15px;
-  }
-}
-@media only screen and (max-width: 414px) {
-  .tienda-bienvenidos {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  .tienda-bienvenidos .tienda-h1 {
-    font-size: 20px;
-  }
-  h4 {
-    font-size: 16px;
-  }
-  h5 {
-    font-size: 15px;
-  }
-  .tienda-clases {
-    margin-bottom: 10px;
   }
 }
 
