@@ -75,6 +75,12 @@
         }
     }
 
+    /*TIENDA*/
+    .tienda-productos {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
 }
 
 
@@ -115,6 +121,50 @@
         font-size: 20px;
     }
 
+    .tienda-productos {
+        margin-left: 15px;
+        margin-right: 15px;
+        img {
+            height: 280px;
+            transition: none !important;
+            transition-duration: none !important;
+
+            &:hover {
+                transition: none !important;
+            }
+        }
+    }
+
+    /*CONTACTO*/
+    .contacto-general {
+
+        .contactanos {
+            font-size: 30px;
+        }
+     
+        .contacto-redes {
+
+            a {
+                font-size: 12px;
+            }
+
+            .contacto-icons {
+                font-size: 15px !important;
+                padding: 8px !important;
+            }
+
+            h5 {
+                font-size: 25px !important;
+                margin-right: 20px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+        }
+        
+    }
 
 }
 
@@ -131,8 +181,10 @@
     }
 
     /*INICIO*/
-    h1 {
-        font-size: 25px;
+    .tienda-bienvenidos {
+        h1 {
+            font-size: 5px;
+        }
     }
 
     .pagina-inicio {
@@ -146,7 +198,7 @@
                     height: 200px;
 
                     &:hover {
-                        height: 250px;
+                        height: 220px;
                     }
                 }
             }
@@ -156,9 +208,9 @@
     /*TIENDA*/
     .tienda-bienvenidos {
         margin-left: 10px;
-        margin-bottom: 15px;
+        
 
-        h1 {
+        .tienda-h1 {
             font-size: 25px;
         }
     }
@@ -203,6 +255,61 @@
             }
 
         }
+    }
+
+    /*CONTACTO*/
+    .contacto-general {
+
+        .contactanos {
+            font-size: 30px;
+        }
+     
+        .contacto-redes {
+
+            a {
+                font-size: 12px;
+            }
+
+            .contacto-icons {
+                font-size: 15px !important;
+                padding: 8px !important;
+            }
+
+            h5 {
+                font-size: 25px !important;
+                margin-right: 20px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+        }
+        
+    }
+    
+
+}
+
+@media only screen and (max-width: 414px) {
+    .tienda-bienvenidos {
+        margin-left: 5px;
+        margin-right: 5px;
+        .tienda-h1 {
+            font-size: 20px;
+        }
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    .tienda-clases {
+        margin-bottom: 10px;
     }
 
 }

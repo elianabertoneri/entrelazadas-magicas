@@ -16,15 +16,15 @@
     flex-wrap: wrap;
 
     .tienda-productos {
-        margin-right: 15px;
-        margin-left: 15px;
+        margin-left: 8px;
+        margin-right: 8px;
 
         img {
-            height: 300px;
+            height: 280px;
             transition-duration: 1s;
 
             &:hover {
-                height: 325px;
+                height: 310px;
                 transition: all 1s;
             }
         }
