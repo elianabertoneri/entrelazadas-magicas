@@ -81,6 +81,29 @@
         margin-right: 10px;
     }
 
+    /*UBICACIÓN*/
+    .ubicacion {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    
+    .mapa {
+        width: 100%;
+    }
+    
+    .ubicacion-elementos {
+        margin-left: 10px;
+        margin-right: 10px;
+        
+        .ubicacion-iconos {
+            font-size: 15px !important; 
+            margin-right: 5px !important;
+        }
+
+        h5 {
+            font-size: 15px;
+        }
+    }
 }
 
 
@@ -164,6 +187,30 @@
 
         }
         
+    }
+
+    /*UBICACIÓN*/
+    .ubicacion {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    
+    .mapa {
+        width: 100%;
+    }
+    
+    .ubicacion-elementos {
+        margin-left: 10px;
+        margin-right: 10px;
+        
+        .ubicacion-iconos {
+            font-size: 15px !important; 
+            margin-right: 5px !important;
+        }
+
+        h5 {
+            font-size: 15px;
+        }
     }
 
 }
@@ -287,8 +334,30 @@
         }
         
     }
-    
 
+    /*UBICACIÓN*/
+    .ubicacion {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    
+    .mapa {
+        width: 100%;
+    }
+    
+    .ubicacion-elementos {
+        margin-left: 10px;
+        margin-right: 10px;
+        
+        .ubicacion-iconos {
+            font-size: 15px !important; 
+            margin-right: 5px !important;
+        }
+
+        h5 {
+            font-size: 15px;
+        }
+    }
 }
 
 @media only screen and (max-width: 414px) {

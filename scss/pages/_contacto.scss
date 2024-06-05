@@ -1,7 +1,7 @@
 @import "../utilities/variables";
 @import "../utilities/mixins";
 @import "../utilities/global";
-
+@import '../utilities/media-queries';
 
 
 .contacto-general {
@@ -42,4 +42,3 @@
 
 }
 
-@import '../utilities/media-queries';
