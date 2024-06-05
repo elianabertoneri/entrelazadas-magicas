@@ -368,6 +368,10 @@
   .ubicacion-elementos h5 {
     font-size: 15px;
   }
+  /*FOOTER*/
+  .footer-container {
+    padding-right: 20px;
+  }
 }
 .navbar {
   padding: 0;
@@ -813,6 +817,10 @@ body .pagina-inicio .productos .links:hover {
   .ubicacion-elementos h5 {
     font-size: 15px;
   }
+  /*FOOTER*/
+  .footer-container {
+    padding-right: 20px;
+  }
 }
 body {
   background-color: #f6e7d6;
@@ -1232,6 +1240,10 @@ h4 {
   }
   .ubicacion-elementos h5 {
     font-size: 15px;
+  }
+  /*FOOTER*/
+  .footer-container {
+    padding-right: 20px;
   }
 }
 body {
@@ -1663,6 +1675,10 @@ h1 {
   .ubicacion-elementos h5 {
     font-size: 15px;
   }
+  /*FOOTER*/
+  .footer-container {
+    padding-right: 20px;
+  }
 }
 body {
   background-color: #f6e7d6;
@@ -2046,6 +2062,10 @@ h1 {
   }
   .ubicacion-elementos h5 {
     font-size: 15px;
+  }
+  /*FOOTER*/
+  .footer-container {
+    padding-right: 20px;
   }
 }
 .contacto-general {
@@ -2465,6 +2485,10 @@ h1 {
   }
   .ubicacion-elementos h5 {
     font-size: 15px;
+  }
+  /*FOOTER*/
+  .footer-container {
+    padding-right: 20px;
   }
 }
 .ubicacion-general {
@@ -2901,6 +2925,10 @@ footer .iconos-footer .icon-style:hover {
   }
   .ubicacion-elementos h5 {
     font-size: 15px;
+  }
+  /*FOOTER*/
+  .footer-container {
+    padding-right: 20px;
   }
 }
 
