@@ -13,6 +13,35 @@
   .pagina-inicio .productos .productos-img {
     margin-bottom: 30px;
   }
+  /*CURSOS*/
+  .grid-container .cursos {
+    grid-area: cursos;
+    margin-top: 5px;
+  }
+  .grid-container .cursos h1 {
+    font-size: 35px;
+  }
+  .grid-container .curso-img {
+    height: 250px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
+  }
 }
 /*Media queries Tablet*/
 @media only screen and (max-width: 992px) {
@@ -25,6 +54,40 @@
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 30px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -42,6 +105,40 @@
   .tienda-productos {
     margin-left: 10px;
     margin-right: 10px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
   }
   /*UBICACIÓN*/
   .ubicacion {
@@ -97,6 +194,40 @@
   }
   .tienda-productos img:hover {
     transition: none !important;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 15px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 15px;
   }
   /*CONTACTO*/
   .contacto-general .contactanos {
@@ -169,22 +300,36 @@
   /*CURSOS*/
   .grid-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 150px 20px 150px 20px;
+    grid-template-rows: 45px 150px 50px 150px 50px;
     grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
   }
   .grid-container .cursos h1 {
     font-size: 18px;
     margin-top: 5px;
   }
   .grid-container .curso-img {
-    height: 120px;
+    height: 150px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
   }
   .grid-container .detalles-uno h5 {
-    font-size: 15px;
+    font-size: 12px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
   }
   .grid-container .detalles-dos h5 {
-    font-size: 15px;
-    margin-top: 25px;
+    font-size: 12px;
   }
   /*CONTACTO*/
   .contacto-general .contactanos {
@@ -313,6 +458,35 @@ body .pagina-inicio .productos .links:hover {
   .pagina-inicio .productos .productos-img {
     margin-bottom: 30px;
   }
+  /*CURSOS*/
+  .grid-container .cursos {
+    grid-area: cursos;
+    margin-top: 5px;
+  }
+  .grid-container .cursos h1 {
+    font-size: 35px;
+  }
+  .grid-container .curso-img {
+    height: 250px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
+  }
 }
 /*Media queries Tablet*/
 @media only screen and (max-width: 992px) {
@@ -325,6 +499,40 @@ body .pagina-inicio .productos .links:hover {
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 30px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -342,6 +550,40 @@ body .pagina-inicio .productos .links:hover {
   .tienda-productos {
     margin-left: 10px;
     margin-right: 10px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
   }
   /*UBICACIÓN*/
   .ubicacion {
@@ -397,6 +639,40 @@ body .pagina-inicio .productos .links:hover {
   }
   .tienda-productos img:hover {
     transition: none !important;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 15px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 15px;
   }
   /*CONTACTO*/
   .contacto-general .contactanos {
@@ -469,22 +745,36 @@ body .pagina-inicio .productos .links:hover {
   /*CURSOS*/
   .grid-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 150px 20px 150px 20px;
+    grid-template-rows: 45px 150px 50px 150px 50px;
     grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
   }
   .grid-container .cursos h1 {
     font-size: 18px;
     margin-top: 5px;
   }
   .grid-container .curso-img {
-    height: 120px;
+    height: 150px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
   }
   .grid-container .detalles-uno h5 {
-    font-size: 15px;
+    font-size: 12px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
   }
   .grid-container .detalles-dos h5 {
-    font-size: 15px;
-    margin-top: 25px;
+    font-size: 12px;
   }
   /*CONTACTO*/
   .contacto-general .contactanos {
@@ -588,6 +878,35 @@ h4 {
   .pagina-inicio .productos .productos-img {
     margin-bottom: 30px;
   }
+  /*CURSOS*/
+  .grid-container .cursos {
+    grid-area: cursos;
+    margin-top: 5px;
+  }
+  .grid-container .cursos h1 {
+    font-size: 35px;
+  }
+  .grid-container .curso-img {
+    height: 250px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
+  }
 }
 /*Media queries Tablet*/
 @media only screen and (max-width: 992px) {
@@ -600,6 +919,40 @@ h4 {
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 30px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -617,6 +970,40 @@ h4 {
   .tienda-productos {
     margin-left: 10px;
     margin-right: 10px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
   }
   /*UBICACIÓN*/
   .ubicacion {
@@ -672,6 +1059,40 @@ h4 {
   }
   .tienda-productos img:hover {
     transition: none !important;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 15px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 15px;
   }
   /*CONTACTO*/
   .contacto-general .contactanos {
@@ -744,22 +1165,36 @@ h4 {
   /*CURSOS*/
   .grid-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 150px 20px 150px 20px;
+    grid-template-rows: 45px 150px 50px 150px 50px;
     grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
   }
   .grid-container .cursos h1 {
     font-size: 18px;
     margin-top: 5px;
   }
   .grid-container .curso-img {
-    height: 120px;
+    height: 150px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-dos, .grid-container .curso-dos, .grid-container .detalles-uno {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
   }
   .grid-container .detalles-uno h5 {
-    font-size: 15px;
+    font-size: 12px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
   }
   .grid-container .detalles-dos h5 {
-    font-size: 15px;
-    margin-top: 25px;
+    font-size: 12px;
   }
   /*CONTACTO*/
   .contacto-general .contactanos {
@@ -873,6 +1308,35 @@ h1 {
   .pagina-inicio .productos .productos-img {
     margin-bottom: 30px;
   }
+  /*CURSOS*/
+  .grid-container .cursos {
+    grid-area: cursos;
+    margin-top: 5px;
+  }
+  .grid-container .cursos h1 {
+    font-size: 35px;
+  }
+  .grid-container .curso-img {
+    height: 250px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
+  }
 }
 /*Media queries Tablet*/
 @media only screen and (max-width: 992px) {
@@ -885,6 +1349,40 @@ h1 {
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 30px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -902,6 +1400,40 @@ h1 {
   .tienda-productos {
     margin-left: 10px;
     margin-right: 10px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
   }
   /*UBICACIÓN*/
   .ubicacion {
@@ -957,6 +1489,40 @@ h1 {
   }
   .tienda-productos img:hover {
     transition: none !important;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 15px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 15px;
   }
   /*CONTACTO*/
   .contacto-general .contactanos {
@@ -1029,22 +1595,36 @@ h1 {
   /*CURSOS*/
   .grid-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 150px 20px 150px 20px;
+    grid-template-rows: 45px 150px 50px 150px 50px;
     grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
   }
   .grid-container .cursos h1 {
     font-size: 18px;
     margin-top: 5px;
   }
   .grid-container .curso-img {
-    height: 120px;
+    height: 150px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
   }
   .grid-container .detalles-uno h5 {
-    font-size: 15px;
+    font-size: 12px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
   }
   .grid-container .detalles-dos h5 {
-    font-size: 15px;
-    margin-top: 25px;
+    font-size: 12px;
   }
   /*CONTACTO*/
   .contacto-general .contactanos {
@@ -1112,6 +1692,35 @@ h1 {
   .pagina-inicio .productos .productos-img {
     margin-bottom: 30px;
   }
+  /*CURSOS*/
+  .grid-container .cursos {
+    grid-area: cursos;
+    margin-top: 5px;
+  }
+  .grid-container .cursos h1 {
+    font-size: 35px;
+  }
+  .grid-container .curso-img {
+    height: 250px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
+  }
 }
 /*Media queries Tablet*/
 @media only screen and (max-width: 992px) {
@@ -1124,6 +1733,40 @@ h1 {
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 30px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1141,6 +1784,40 @@ h1 {
   .tienda-productos {
     margin-left: 10px;
     margin-right: 10px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
   }
   /*UBICACIÓN*/
   .ubicacion {
@@ -1196,6 +1873,40 @@ h1 {
   }
   .tienda-productos img:hover {
     transition: none !important;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 15px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 15px;
   }
   /*CONTACTO*/
   .contacto-general .contactanos {
@@ -1268,22 +1979,36 @@ h1 {
   /*CURSOS*/
   .grid-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 150px 20px 150px 20px;
+    grid-template-rows: 45px 150px 50px 150px 50px;
     grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
   }
   .grid-container .cursos h1 {
     font-size: 18px;
     margin-top: 5px;
   }
   .grid-container .curso-img {
-    height: 120px;
+    height: 150px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
   }
   .grid-container .detalles-uno h5 {
-    font-size: 15px;
+    font-size: 12px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
   }
   .grid-container .detalles-dos h5 {
-    font-size: 15px;
-    margin-top: 25px;
+    font-size: 12px;
   }
   /*CONTACTO*/
   .contacto-general .contactanos {
@@ -1386,6 +2111,35 @@ h1 {
   .pagina-inicio .productos .productos-img {
     margin-bottom: 30px;
   }
+  /*CURSOS*/
+  .grid-container .cursos {
+    grid-area: cursos;
+    margin-top: 5px;
+  }
+  .grid-container .cursos h1 {
+    font-size: 35px;
+  }
+  .grid-container .curso-img {
+    height: 250px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
+  }
 }
 /*Media queries Tablet*/
 @media only screen and (max-width: 992px) {
@@ -1398,6 +2152,40 @@ h1 {
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 30px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1415,6 +2203,40 @@ h1 {
   .tienda-productos {
     margin-left: 10px;
     margin-right: 10px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
   }
   /*UBICACIÓN*/
   .ubicacion {
@@ -1470,6 +2292,40 @@ h1 {
   }
   .tienda-productos img:hover {
     transition: none !important;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 15px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 15px;
   }
   /*CONTACTO*/
   .contacto-general .contactanos {
@@ -1542,22 +2398,36 @@ h1 {
   /*CURSOS*/
   .grid-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 150px 20px 150px 20px;
+    grid-template-rows: 45px 150px 50px 150px 50px;
     grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
   }
   .grid-container .cursos h1 {
     font-size: 18px;
     margin-top: 5px;
   }
   .grid-container .curso-img {
-    height: 120px;
+    height: 150px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
   }
   .grid-container .detalles-uno h5 {
-    font-size: 15px;
+    font-size: 12px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
   }
   .grid-container .detalles-dos h5 {
-    font-size: 15px;
-    margin-top: 25px;
+    font-size: 12px;
   }
   /*CONTACTO*/
   .contacto-general .contactanos {
@@ -1677,6 +2547,35 @@ footer .iconos-footer .icon-style:hover {
   .pagina-inicio .productos .productos-img {
     margin-bottom: 30px;
   }
+  /*CURSOS*/
+  .grid-container .cursos {
+    grid-area: cursos;
+    margin-top: 5px;
+  }
+  .grid-container .cursos h1 {
+    font-size: 35px;
+  }
+  .grid-container .curso-img {
+    height: 250px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
+  }
 }
 /*Media queries Tablet*/
 @media only screen and (max-width: 992px) {
@@ -1689,6 +2588,40 @@ footer .iconos-footer .icon-style:hover {
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 30px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1706,6 +2639,40 @@ footer .iconos-footer .icon-style:hover {
   .tienda-productos {
     margin-left: 10px;
     margin-right: 10px;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 18px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 18px;
   }
   /*UBICACIÓN*/
   .ubicacion {
@@ -1761,6 +2728,40 @@ footer .iconos-footer .icon-style:hover {
   }
   .tienda-productos img:hover {
     transition: none !important;
+  }
+  /*CURSOS*/
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 200px 50px 200px 50px;
+    grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
+  }
+  .grid-container .cursos h1 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .grid-container .curso-img {
+    height: 200px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
+  }
+  .grid-container .detalles-uno h5 {
+    font-size: 15px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
+  }
+  .grid-container .detalles-dos h5 {
+    font-size: 15px;
   }
   /*CONTACTO*/
   .contacto-general .contactanos {
@@ -1833,22 +2834,36 @@ footer .iconos-footer .icon-style:hover {
   /*CURSOS*/
   .grid-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 150px 20px 150px 20px;
+    grid-template-rows: 45px 150px 50px 150px 50px;
     grid-template-areas: "cursos" "curso1" "detalles1" "curso2" "detalles2";
+  }
+  .grid-container .cursos {
+    grid-area: cursos;
   }
   .grid-container .cursos h1 {
     font-size: 18px;
     margin-top: 5px;
   }
   .grid-container .curso-img {
-    height: 120px;
+    height: 150px;
+  }
+  .grid-container .curso-uno, .grid-container .detalles-uno, .grid-container .curso-dos, .grid-container .detalles-dos {
+    grid-area: curso1;
+  }
+  .grid-container .detalles-uno {
+    grid-area: detalles1;
   }
   .grid-container .detalles-uno h5 {
-    font-size: 15px;
+    font-size: 12px;
+  }
+  .grid-container .curso-dos {
+    grid-area: curso2;
+  }
+  .grid-container .detalles-dos {
+    grid-area: detalles2;
   }
   .grid-container .detalles-dos h5 {
-    font-size: 15px;
-    margin-top: 25px;
+    font-size: 12px;
   }
   /*CONTACTO*/
   .contacto-general .contactanos {
