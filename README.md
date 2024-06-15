@@ -6,6 +6,6 @@
 - Tienda: en la tienda se pueden observar imágenes de los distintos productos que están disponibles.
 - Cursos: en la página de Cursos se puede acceder a los tutoriales que ofrece "Entrelazadas Mágicas".
 - Contacto: en la página Contacto se pueden visualizar las redes sociales del emprendimiento. 
-- Ubicación: la página Ubicación tiene un mapa de Google que muestra la donde se encuentra de la tienda.
+- Ubicación: la página Ubicación tiene un mapa de Google que muestra donde se encuentra de la tienda.
 
 ######  Eliana Bertoneri
